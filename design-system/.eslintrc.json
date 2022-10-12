@@ -11,6 +11,7 @@
       "airbnb-base",
       "plugin:editorconfig/noconflict",
       "plugin:mocha/recommended",
+      "plugin:storybook/recommended",
       "airbnb-typescript/base",
       "airbnb-typescript"
   ],
