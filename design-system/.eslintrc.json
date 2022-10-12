@@ -11,7 +11,8 @@
       "airbnb-base",
       "plugin:editorconfig/noconflict",
       "plugin:mocha/recommended",
-      "airbnb-typescript/base"
+      "airbnb-typescript/base",
+      "airbnb-typescript"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -26,6 +27,7 @@
       "mocha"
   ],
   "rules": {
+      "react/jsx-filename-extension": "off",
       "no-underscore-dangle": "off",
       "lines-between-class-members": ["error", "always", { "exceptAfterSingleLine": true }],
       "@typescript-eslint/lines-between-class-members": ["error", "always", { "exceptAfterSingleLine": true }],

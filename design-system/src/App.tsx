@@ -1,9 +1,7 @@
 import './styles/global.css';
 
-export function App() {
-  console.log('hey siri');
+export default function App() {
   return (
     <h1>Hello World</h1>
-  )
+  );
 }
-
