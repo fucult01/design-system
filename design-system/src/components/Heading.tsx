@@ -1,13 +1,12 @@
 import { ReactNode } from 'react';
 import { Slot } from '@radix-ui/react-slot';
 import { clsx } from 'clsx';
-import { StringLiteral } from 'typescript';
 
 export interface HeadingProps {
   size?: 'sm' | 'md' | 'lg';
   children: ReactNode;
   asChild?: boolean;
-  className?: StringLiteral;
+  className?: string;
 }
 
 export default function Heading({
