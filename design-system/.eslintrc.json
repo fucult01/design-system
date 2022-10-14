@@ -28,6 +28,7 @@
       "mocha"
   ],
   "rules": {
+      "@typescript-eslint/no-empty-interface": 0,
       "react/jsx-filename-extension": "off",
       "no-underscore-dangle": "off",
       "lines-between-class-members": ["error", "always", { "exceptAfterSingleLine": true }],
@@ -60,14 +61,14 @@
           "error",
           250
       ],
-      "max-lines-per-function": [
-          "error",
-          {
-              "max": 20,
-              "skipBlankLines": true,
-              "skipComments": true
-          }
-      ],
+    //   "max-lines-per-function": [
+    //       "error",
+    //       {
+    //           "max": 20,
+    //           "skipBlankLines": true,
+    //           "skipComments": true
+    //       }
+    //   ],
       "max-len": [
           "error",
           {
