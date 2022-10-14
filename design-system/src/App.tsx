@@ -26,8 +26,10 @@ export default function App() {
         </Text>
       </header>
 
-      <form className={`flex flex-col gap-4 items-stretch 
-      w-full max-w-[400px] mt-10`}>
+      <form
+        className={`flex flex-col gap-4 items-stretch 
+      w-full max-w-[400px] mt-10`}
+      >
         <label htmlFor="email" className="flex flex-col gap-3">
           <Text className="font-semibold">Endereço de e-mail</Text>
           <TextInput.Root>
@@ -58,16 +60,28 @@ export default function App() {
         </label>
         <label htmlFor="remember" className="flex items-center gap-2">
           <Checkbox id="remember" />
-          <Text 
-            size="sm" 
-            className="text-gray-200"
-          >
+          <Text size="sm" className="text-gray-200">
             Lembrar de mim por 30 dias
           </Text>
         </label>
 
-        <Button type="submit" className="mt-4">Entrar na plataforma</Button>
+        <Button type="submit" className="mt-4">
+          Entrar na plataforma
+        </Button>
       </form>
+
+      <footer className="flex flex-col items-center gap-4 mt-8">
+        <Text asChild size="sm">
+          <a href="" className="text-gray-400 underline hover:text-gray-200">
+            Esqueceu sua senha?
+          </a>
+        </Text>
+        <Text asChild size="sm">
+          <a href="" className="text-gray-400 underline hover:text-gray-200">
+            Não possui conta? Crie uma agora!
+          </a>
+        </Text>
+      </footer>
     </div>
   );
 }
